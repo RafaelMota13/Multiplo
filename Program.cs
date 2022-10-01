@@ -12,21 +12,22 @@ resto = n1 % n2;
 
 
 if (resto ==0)
-{
+    {
 
-    Console.ForegroundColor = ConsoleColor.DarkGreen;
+      Console.ForegroundColor = ConsoleColor.DarkGreen;
 
-    Console.WriteLine($"\n{n1} é múltiplo {n2}\n");
+       Console.WriteLine($"\n{n1} é múltiplo {n2}\n");
 
-    Console.ResetColor();
+      Console.ResetColor();
 
-}
+    }
 else
-{
+    {
     
-    Console.ForegroundColor = ConsoleColor.Red;
+      Console.ForegroundColor = ConsoleColor.Red;
 
-    Console.WriteLine($"\n{n1} não é múltiplo {n2}\n");
+      Console.WriteLine($"\n{n1} não é múltiplo {n2}\n");
 
-    Console.ResetColor();
-}
+      Console.ResetColor();
+      
+    }
